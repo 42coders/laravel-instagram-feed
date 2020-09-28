@@ -30,7 +30,7 @@ Instagram provides three media types through this API: image, video and carousel
 
 ### Setup
 
-`php artisan vendor:publish` to publish the necessary migrations and config, and `php artisan migrate` to run migrations.
+`php artisan vendor:publish --provider="Dymantic\InstagramFeed\InstagramFeedServiceProvider"` to publish the necessary migrations and config, and `php artisan migrate` to run migrations.
 
 ### Config
 
